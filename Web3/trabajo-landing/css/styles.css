@@ -1,0 +1,60 @@
+.content{
+	width: 1000px;
+	margin: 0 auto;
+	font-family: helvetica;
+}
+
+#banner{
+	width: 100%;
+	margin-top: 125px;
+}
+
+header{
+	background: url(../img/banner-head.jpg);
+}
+
+nav{
+	position:fixed;
+	width: 100%;
+	background-color:#2b2b2b;
+	height: 125px;
+	margin:0 auto;
+}
+
+nav+div{
+	padding-top: 125px;
+}
+
+nav>a>img{
+	background-color: #1b8abe;
+	height: 125px;
+}
+
+nav ul{
+	display: inline-block;
+	padding-bottom: 1.8rem;
+	overflow: hidden;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 4.5rem;
+}
+
+nav li a{
+	list-style: none;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+header div{
+	color:#fff;
+	text-align: center;
+}
+
+.content img[src="img/badge.png"]{
+	width: 20%;
+	margin: 0 auto;
+}
